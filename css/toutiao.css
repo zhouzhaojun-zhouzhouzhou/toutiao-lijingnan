@@ -1,0 +1,254 @@
+.title{
+    width: 100%;
+    height: 44px;
+    background-color:   #d43d3d;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.logo{
+    float: left;
+    width: 54px;
+    height:25px;
+    /* background-color: lightcoral; */
+    margin-top: 10px;
+    margin-left: 25px;
+    background: url(https://s3.pstatp.com/growth/mobile_list/image/feed_ic_message_normal@3x_f2ea949f.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.titlelogo{
+    width:115px;
+    height: 100%;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-left:15px;
+    margin-left: 52px;
+    /* background-color: lemonchiffon; */
+}
+.titlelogo1 {
+    float: left;
+    width: 83px;
+    height: 100%;
+    background: url(https://s3b.pstatp.com/growth/mobile_list/image/wap_logo@3x_581de69e.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* background-color: indigo; */
+    padding-left: 15px;
+   line-height: 100%;
+}
+.searchlogo{
+    float: left;
+    width: 36px;
+     height: 24px;
+    margin-left: 60px;
+    margin-top: 10px;
+     background: url(https://s3.pstatp.com/growth/mobile_list/image/feed_ic_search_normal@3x_0f198e56.png) no-repeat;
+     background-size: contain;
+     /* background-color: lightblue; */
+}
+.xunhuan{
+    width: 25px;
+    height: 28px;
+    float: left;
+    background-color: lightcoral;
+    background: url(https://s3a.pstatp.com/growth/mobile_list/image/titlebar_refresh_small@3x_96fb31e4.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    margin-top: 15px;
+}
+.content1{
+    width: 345px;
+    height:61px ;
+    margin: 0 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    /* background-color: blue;  */
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
+    display: -webkit-box; 
+    border-bottom: 1px solid #f5f5f5;  
+}
+.content1-title{
+    color:black;
+    line-height: 24px;
+    font-size: 17px;
+    font-weight: normal;
+
+}
+.content1 span{
+    display: inline-block;
+    margin-left: .05rem;
+    font-size: 5px;
+    color: #999;
+}
+.span{
+    display: inline-block;
+    margin-left: .18rem;
+    color: #999;
+
+}
+.content1 .top{
+    float: left;
+    width: 30px;
+    height: 17px;
+    color: #f85959;
+    border: 1px solid #f85959;
+    /* background-color: blueviolet; */
+}
+.content2{
+    width: 345px;
+    height: 113px;
+    margin: 0 15px;
+    /* background-color: blue;  */
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
+    display: -webkit-box; 
+    border-bottom: 1px solid #f5f5f5;  
+}
+.content2  .title2{
+    display: block;
+    float: left;
+    width: 231px;
+    height:74px;
+    color: #999;
+    line-height: 24px;
+    font-size: 5px;
+    font-weight: normal;
+    /* background-color: aqua; */
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
+    display: -webkit-box;
+    float: left;  
+    line-height: .88rem;
+    -webkit-line-clamp: 2;
+    
+    
+}
+.pic {
+    float: right;
+    display: block;
+    width: 114px;
+    height: 74px;
+    
+}
+.pic img{
+    display: block;
+    width: 114px;
+    height: 74px;
+}
+a{  
+    -webkit-display: flex;
+    -ms-display: flex;
+    display: flex;
+    display: -ms-flexbox;
+    display: block;
+    width: 345px;
+    height: 81px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.item-info{
+    float: left;
+    font-size: .22rem;
+        color: #999;
+        width: 231px;
+        height: 12px;
+        /* background-color: brown; */
+         
+}
+.item-info span{
+    display: inline-block;
+    margin-left: .18rem;
+    color: #999;
+}
+.content3{
+    width:345px ;
+    height:270px;
+    margin: 0 15px;
+    /* background-color: brown; */
+    border-bottom: 1px solid #f5f5f5;  
+}
+.h3{
+    width: 345px;
+    height: 42px;
+    /* background-color: chartreuse; */
+}
+.center-logo{
+    width: 345px;
+    height:194px ;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e63ab43e7c32296f18f34c8efb41534.jpg?thumb=1&w=1226&h=120&f=webp&q=90);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+ .content3 .item-info span{
+    color: gray;
+    font-size: 5px;
+}
+.content4{
+    width: 345px;
+    height: 171px;
+    margin: 0 15px;
+    /* background-color: green; */
+    border-bottom: 1px solid #e7e5e5;  
+}
+.content5{
+    width: 345px;
+    height: 171px;
+    margin: 0 15px;
+    /* background-color: green; */
+}
+
+.parent{
+    display: flex;
+    margin-bottom:6px;
+    margin-top: 6px;
+}
+.child1{
+    flex: 1;
+    height:73px;
+    width: 33.3%;
+    /* background-color: greenyellow; */
+    float: left;
+    padding-left: 2px;
+}
+.child2{
+    flex: 1;
+    height:73px;
+    width: 33.3%;
+    /* background-color: hotpink; */
+    float: left;
+    padding-left: 2px;
+}
+.child3{
+    flex: 1;
+    height: 73px;
+    /* width: 33.3%;
+    background-color: blue; */
+    float: left;
+    padding-left: 2px;
+    
+}
+.child1 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.child2 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.child3 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.content4 .item-info{
+    width:349px ;
+    height:14px ;
+}
